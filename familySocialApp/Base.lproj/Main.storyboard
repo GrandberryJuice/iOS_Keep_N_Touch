@@ -28,12 +28,12 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="927" y="333"/>
+            <point key="canvasLocation" x="652" y="113"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="x1c-Ap-jC2">
             <objects>
-                <viewController id="u96-Rm-cUv" sceneMemberID="viewController">
+                <viewController id="u96-Rm-cUv" customClass="ViewController" customModule="familySocialApp" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="dVr-YK-JDL"/>
                         <viewControllerLayoutGuide type="bottom" id="j6n-z9-6ez"/>
@@ -110,6 +110,21 @@
                                     <constraint firstAttribute="width" constant="168" id="VtR-Nz-9b4"/>
                                 </constraints>
                             </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Sign in with / Sign up with" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="0sg-II-sY9">
+                                <rect key="frame" x="20" y="497" width="291" height="21"/>
+                                <fontDescription key="fontDescription" name="HelveticaNeue-UltraLight" family="Helvetica Neue" pointSize="14"/>
+                                <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Facebook" translatesAutoresizingMaskIntoConstraints="NO" id="54z-dq-cct">
+                                <rect key="frame" x="66" y="534" width="28" height="26"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Twitter" translatesAutoresizingMaskIntoConstraints="NO" id="qBq-9y-ScX">
+                                <rect key="frame" x="153" y="536" width="25" height="22"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Google+" translatesAutoresizingMaskIntoConstraints="NO" id="bLl-ga-KD5">
+                                <rect key="frame" x="250" y="534" width="26" height="26"/>
+                            </imageView>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <constraints>
@@ -141,9 +156,12 @@
     </scenes>
     <resources>
         <image name="Close Background" width="275" height="44"/>
+        <image name="Facebook" width="33" height="31"/>
+        <image name="Google+" width="38" height="38"/>
         <image name="Key 2@1x" width="35" height="34"/>
         <image name="Line" width="261" height="1"/>
         <image name="Purplebg" width="375" height="667"/>
+        <image name="Twitter" width="29" height="26"/>
         <image name="User" width="31" height="38"/>
         <image name="click" width="172" height="87"/>
     </resources>
