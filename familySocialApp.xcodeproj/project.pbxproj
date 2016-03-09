@@ -12,9 +12,16 @@
 		C7EBD1841C891FEA0025C0CC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C7EBD1821C891FEA0025C0CC /* Main.storyboard */; };
 		C7EBD1861C891FEA0025C0CC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C7EBD1851C891FEA0025C0CC /* Assets.xcassets */; };
 		C7EBD1891C891FEB0025C0CC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C7EBD1871C891FEB0025C0CC /* LaunchScreen.storyboard */; };
+		C7EBD1991C8FDC500025C0CC /* Bolts.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C7EBD1961C8FDC4E0025C0CC /* Bolts.framework */; };
+		C7EBD19A1C8FDC520025C0CC /* FBSDKCoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C7EBD1971C8FDC4E0025C0CC /* FBSDKCoreKit.framework */; };
+		C7EBD19B1C8FDC520025C0CC /* FBSDKLoginKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C7EBD1981C8FDC4E0025C0CC /* FBSDKLoginKit.framework */; };
+		E3828D12C35510E536D61392 /* Pods_familySocialApp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 54F7F78CD363CA197F79CFFA /* Pods_familySocialApp.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		54F7F78CD363CA197F79CFFA /* Pods_familySocialApp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_familySocialApp.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		5A212E3217AF3DC8E47E2231 /* Pods-familySocialApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-familySocialApp.release.xcconfig"; path = "Pods/Target Support Files/Pods-familySocialApp/Pods-familySocialApp.release.xcconfig"; sourceTree = "<group>"; };
+		8F3EE7D043DD2A1025FB9EB2 /* Pods-familySocialApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-familySocialApp.debug.xcconfig"; path = "Pods/Target Support Files/Pods-familySocialApp/Pods-familySocialApp.debug.xcconfig"; sourceTree = "<group>"; };
 		C7EBD17B1C891FE90025C0CC /* familySocialApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = familySocialApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C7EBD17E1C891FEA0025C0CC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		C7EBD1801C891FEA0025C0CC /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -22,6 +29,9 @@
 		C7EBD1851C891FEA0025C0CC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C7EBD1881C891FEB0025C0CC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		C7EBD18A1C891FEB0025C0CC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C7EBD1961C8FDC4E0025C0CC /* Bolts.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Bolts.framework; sourceTree = "<group>"; };
+		C7EBD1971C8FDC4E0025C0CC /* FBSDKCoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = FBSDKCoreKit.framework; sourceTree = "<group>"; };
+		C7EBD1981C8FDC4E0025C0CC /* FBSDKLoginKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = FBSDKLoginKit.framework; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,17 +39,31 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C7EBD1991C8FDC500025C0CC /* Bolts.framework in Frameworks */,
+				C7EBD19A1C8FDC520025C0CC /* FBSDKCoreKit.framework in Frameworks */,
+				C7EBD19B1C8FDC520025C0CC /* FBSDKLoginKit.framework in Frameworks */,
+				E3828D12C35510E536D61392 /* Pods_familySocialApp.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		89A1BCF310F62154A81D4692 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				54F7F78CD363CA197F79CFFA /* Pods_familySocialApp.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		C7EBD1721C891FE80025C0CC = {
 			isa = PBXGroup;
 			children = (
 				C7EBD17D1C891FE90025C0CC /* familySocialApp */,
 				C7EBD17C1C891FE90025C0CC /* Products */,
+				F1FD858AC034A1DB4B28B32E /* Pods */,
+				89A1BCF310F62154A81D4692 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -54,6 +78,12 @@
 		C7EBD17D1C891FE90025C0CC /* familySocialApp */ = {
 			isa = PBXGroup;
 			children = (
+				C7EBD1951C8FDC100025C0CC /* Utils */,
+				C7EBD1941C8FDBFA0025C0CC /* Frameworks */,
+				C7EBD1931C8FDBE50025C0CC /* Resources */,
+				C7EBD1921C8FDBD80025C0CC /* Controller */,
+				C7EBD1911C8FDBCF0025C0CC /* View */,
+				C7EBD1901C8FDBC50025C0CC /* Model */,
 				C7EBD17E1C891FEA0025C0CC /* AppDelegate.swift */,
 				C7EBD1801C891FEA0025C0CC /* ViewController.swift */,
 				C7EBD1821C891FEA0025C0CC /* Main.storyboard */,
@@ -64,6 +94,60 @@
 			path = familySocialApp;
 			sourceTree = "<group>";
 		};
+		C7EBD1901C8FDBC50025C0CC /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		C7EBD1911C8FDBCF0025C0CC /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+		C7EBD1921C8FDBD80025C0CC /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Controller;
+			sourceTree = "<group>";
+		};
+		C7EBD1931C8FDBE50025C0CC /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		C7EBD1941C8FDBFA0025C0CC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C7EBD1961C8FDC4E0025C0CC /* Bolts.framework */,
+				C7EBD1971C8FDC4E0025C0CC /* FBSDKCoreKit.framework */,
+				C7EBD1981C8FDC4E0025C0CC /* FBSDKLoginKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C7EBD1951C8FDC100025C0CC /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Utils;
+			sourceTree = "<group>";
+		};
+		F1FD858AC034A1DB4B28B32E /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				8F3EE7D043DD2A1025FB9EB2 /* Pods-familySocialApp.debug.xcconfig */,
+				5A212E3217AF3DC8E47E2231 /* Pods-familySocialApp.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -71,9 +155,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = C7EBD18D1C891FEB0025C0CC /* Build configuration list for PBXNativeTarget "familySocialApp" */;
 			buildPhases = (
+				1B9D8BB69C19A3AEF07191B7 /* Check Pods Manifest.lock */,
 				C7EBD1771C891FE90025C0CC /* Sources */,
 				C7EBD1781C891FE90025C0CC /* Frameworks */,
 				C7EBD1791C891FE90025C0CC /* Resources */,
+				F13BAB223D01F559B66F41EC /* Embed Pods Frameworks */,
+				06EBDDB3B8FB990E77586BD0 /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -129,6 +216,54 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		06EBDDB3B8FB990E77586BD0 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-familySocialApp/Pods-familySocialApp-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		1B9D8BB69C19A3AEF07191B7 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		F13BAB223D01F559B66F41EC /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-familySocialApp/Pods-familySocialApp-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		C7EBD1771C891FE90025C0CC /* Sources */ = {
@@ -245,8 +380,14 @@
 		};
 		C7EBD18E1C891FEB0025C0CC /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8F3EE7D043DD2A1025FB9EB2 /* Pods-familySocialApp.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ENABLE_BITCODE = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/familySocialApp",
+				);
 				INFOPLIST_FILE = familySocialApp/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.nerdinabriefcase.familySocialApp;
@@ -256,8 +397,14 @@
 		};
 		C7EBD18F1C891FEB0025C0CC /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5A212E3217AF3DC8E47E2231 /* Pods-familySocialApp.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ENABLE_BITCODE = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/familySocialApp",
+				);
 				INFOPLIST_FILE = familySocialApp/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.nerdinabriefcase.familySocialApp;
@@ -284,6 +431,7 @@
 				C7EBD18F1C891FEB0025C0CC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
